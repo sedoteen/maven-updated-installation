@@ -22,16 +22,16 @@ then
         sleep 1
         echo Maven software installation will start in a moment...
         sleep 1
-        sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.zip
+        sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.5-bin.zip
         echo Unzipping to start in a moment...
         sleep 1
-        sudo unzip apache-maven-3.8.5-bin.zip
+        sudo unzip apache-maven-3.8.6-bin.zip
         echo Deleting the zip file...
         sleep 1
-        sudo rm -rf apache-maven-3.8.5-bin.zip
+        sudo rm -rf apache-maven-3.8.6-bin.zip
         echo Renaming the installation directory...
         sleep 1
-        sudo mv apache-maven-3.8.5/ maven
+        sudo mv apache-maven-3.8.6/ maven
         echo Setting Environmental Variable for $whoami ...
         echo "export M2_HOME=/opt/maven"   >>  ~/.bash_profile
         echo "export PATH=$PATH:$M2_HOME/bin"   >> ~/.bash_profile
